@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="11762" systemVersion="15G31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11757"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <label opaque="NO" userInteractionEnabled="NO" tag="101" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="HhH-cW-qzr">
+                    <rect key="frame" x="187.5" y="18" width="0.0" height="21"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="21" id="jN0-6N-oIk"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" type="system" pointSize="13"/>
+                    <color key="textColor" red="0.96078431372549022" green="0.69019607843137254" blue="0.019607843137254902" alpha="1" colorSpace="calibratedRGB"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label opaque="NO" userInteractionEnabled="NO" tag="102" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Jff-Qb-mgJ">
+                    <rect key="frame" x="172" y="39" width="30" height="21"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="21" id="7aO-Pm-5DS"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" type="system" pointSize="10"/>
+                    <color key="textColor" red="0.59215686274509804" green="0.60392156862745094" blue="0.62745098039215685" alpha="1" colorSpace="calibratedRGB"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <imageView userInteractionEnabled="NO" tag="103" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="x2a-Cn-FHv">
+                    <rect key="frame" x="167.5" y="65" width="39" height="32"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="32" id="ffT-2k-gT0"/>
+                        <constraint firstAttribute="width" constant="39" id="fvH-8F-4cg"/>
+                    </constraints>
+                </imageView>
+                <button opaque="NO" tag="104" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="hUX-8V-XTH">
+                    <rect key="frame" x="172.5" y="0.0" width="30" height="97"/>
+                </button>
+            </subviews>
+            <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstItem="hUX-8V-XTH" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" id="BVY-fS-r3L"/>
+                <constraint firstItem="Jff-Qb-mgJ" firstAttribute="top" secondItem="HhH-cW-qzr" secondAttribute="bottom" id="Jen-Cp-Nxf"/>
+                <constraint firstItem="hUX-8V-XTH" firstAttribute="width" secondItem="Jff-Qb-mgJ" secondAttribute="width" id="NDS-tk-RdO"/>
+                <constraint firstItem="hUX-8V-XTH" firstAttribute="bottom" secondItem="x2a-Cn-FHv" secondAttribute="bottom" id="Nmf-mf-a2i"/>
+                <constraint firstItem="HhH-cW-qzr" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" constant="18" id="Pe0-ny-cJ0"/>
+                <constraint firstItem="hUX-8V-XTH" firstAttribute="centerX" secondItem="iN0-l3-epB" secondAttribute="centerX" id="PzC-9r-o0b"/>
+                <constraint firstItem="Jff-Qb-mgJ" firstAttribute="centerX" secondItem="iN0-l3-epB" secondAttribute="centerX" id="Zqa-Pw-T6P"/>
+                <constraint firstItem="HhH-cW-qzr" firstAttribute="centerX" secondItem="iN0-l3-epB" secondAttribute="centerX" id="bix-tW-2Ir"/>
+                <constraint firstItem="x2a-Cn-FHv" firstAttribute="top" secondItem="Jff-Qb-mgJ" secondAttribute="bottom" constant="5" id="sns-f5-I3H"/>
+                <constraint firstItem="x2a-Cn-FHv" firstAttribute="centerX" secondItem="iN0-l3-epB" secondAttribute="centerX" id="tCi-nv-TsT"/>
+            </constraints>
+        </view>
+    </objects>
+</document>

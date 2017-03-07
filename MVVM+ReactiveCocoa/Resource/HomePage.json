@@ -1,0 +1,1183 @@
+{
+    "response" : {
+        "topShopList" : [
+                         {
+                         "busiArea" : "",
+                         "deliveryBeginMoney" : 0,
+                         "deliveryFee" : 0,
+                         "marqueeList" : [
+                         
+                         ],
+                         "isOutOfSide" : 0,
+                         "packPoint" : 0,
+                         "specialShopIcon" : "",
+                         "weightPoint" : 0,
+                         "activityList" : null,
+                         "picturePoint" : 0,
+                         "shopTags" : [
+                                       "http:\/\/resource.line0.com\/img\/filtor_icon\/new\/icn_fapiao.png",
+                                       "http:\/\/resource.line0.com\/img\/filtor_icon\/new\/icn_zheng.png"
+                                       ],
+                         "busiTime" : "10:00-21:30",
+                         "shopTagVos" : [
+                                         {
+                                         "id" : 3,
+                                         "imgUrl" : "http:\/\/resource.line0.com\/img\/filtor_icon\/new\/icn_fapiao.png"
+                                         },
+                                         {
+                                         "id" : 8,
+                                         "imgUrl" : "http:\/\/resource.line0.com\/img\/filtor_icon\/new\/icn_zheng.png"
+                                         }
+                                         ],
+                         "maxDiscount" : 0,
+                         "busiTimeBin" : "000000000000000000001111111111111111111111100000",
+                         "specialShopType" : 0,
+                         "distanceToUser" : 0,
+                         "isInBusiness" : 1,
+                         "shopImageList" : [
+                         
+                         ],
+                         "article" : "",
+                         "activities" : [
+                                         {
+                                         "typeCode" : 0,
+                                         "id" : 0,
+                                         "maxDiscount" : 0,
+                                         "typeCodeValue" : 0,
+                                         "initAmount" : 0,
+                                         "type" : 9,
+                                         "desc" : "本店支持使用包邮卡",
+                                         "icon" : "http:\/\/img.line0.com\/static\/cms\/1463565787867.jpg"
+                                         }
+                                         ],
+                         "marketCircleId" : 119,
+                         "productAndPrice" : [
+                         
+                         ],
+                         "share" : null,
+                         "salesInWeek" : 353,
+                         "avgAppPoint" : 4.82,
+                         "tastePoint" : 0,
+                         "productList" : [
+                         
+                         ],
+                         "shopName" : "一点点（珠江路店）",
+                         "deliveryMethodId" : 0,
+                         "deliveryMethods" : [
+                         
+                         ],
+                         "shopAnounce" : "",
+                         "deliveryTime" : 75,
+                         "maxDiscountDesc" : "",
+                         "deliveryPhone" : "",
+                         "isInvoice" : 0,
+                         "shopCopyWriters" : [
+                                              "近期销售353份",
+                                              "￥0.0起送",
+                                              "75分钟送达"
+                                              ],
+                         "shopId" : 17438,
+                         "shopLogo" : "http:\/\/img7.line0.com\/static\/image\/logo\/1457969679156.jpg",
+                         "deliveryMethodType" : 0,
+                         "shopQualification" : {
+                         "qualificationId" : 10512,
+                         "isDeleted" : 0,
+                         "status" : 0,
+                         "pageAmount" : 0,
+                         "shopId" : 0,
+                         "sortOrder" : "",
+                         "idCardImg" : "",
+                         "sortProperty" : "",
+                         "lastUpdateTime" : null,
+                         "longLastUpdateTime" : 0,
+                         "curPage" : 0,
+                         "idCard" : "320106197403130011",
+                         "linkman" : "陈永刚",
+                         "firstRow" : 0,
+                         "createId" : 0,
+                         "foodPermit" : "",
+                         "licenseImg" : "",
+                         "pageRows" : 0,
+                         "shop" : null,
+                         "createTime" : null,
+                         "lastUpdateId" : 0,
+                         "license" : "320102600398974",
+                         "foodPermitImg" : "",
+                         "lastURL" : "\/usercenter\/getlistCart.do"
+                         }
+                         },
+                         {
+                         "busiArea" : "",
+                         "deliveryBeginMoney" : 30,
+                         "deliveryFee" : 0,
+                         "marqueeList" : [
+                         
+                         ],
+                         "isOutOfSide" : 0,
+                         "packPoint" : 0,
+                         "specialShopIcon" : "",
+                         "weightPoint" : 0,
+                         "activityList" : null,
+                         "picturePoint" : 0,
+                         "shopTags" : [
+                                       "http:\/\/resource.line0.com\/img\/filtor_icon\/new\/icn_fapiao.png",
+                                       "http:\/\/resource.line0.com\/img\/filtor_icon\/new\/icn_zheng.png",
+                                       "http:\/\/resource.line0.com\/img\/filtor_icon\/new\/icn_shipai.png"
+                                       ],
+                         "busiTime" : "11:00-14:00\/17:00-21:30",
+                         "shopTagVos" : [
+                                         {
+                                         "id" : 3,
+                                         "imgUrl" : "http:\/\/resource.line0.com\/img\/filtor_icon\/new\/icn_fapiao.png"
+                                         },
+                                         {
+                                         "id" : 8,
+                                         "imgUrl" : "http:\/\/resource.line0.com\/img\/filtor_icon\/new\/icn_zheng.png"
+                                         }
+                                         ],
+                         "maxDiscount" : 0,
+                         "busiTimeBin" : "000000000000000000000011111100000011111111100000",
+                         "specialShopType" : 0,
+                         "distanceToUser" : 0,
+                         "isInBusiness" : 1,
+                         "shopImageList" : [
+                         
+                         ],
+                         "article" : "",
+                         "activities" : [
+                                         {
+                                         "typeCode" : 0,
+                                         "id" : 0,
+                                         "maxDiscount" : 0,
+                                         "typeCodeValue" : 0,
+                                         "initAmount" : 0,
+                                         "type" : 1,
+                                         "desc" : "满30元减6元",
+                                         "icon" : "http:\/\/resource.line0.com\/img\/filtor_icon\/new\/icn_jian.png"
+                                         },
+                                         {
+                                         "typeCode" : 0,
+                                         "id" : 0,
+                                         "maxDiscount" : 0,
+                                         "typeCodeValue" : 0,
+                                         "initAmount" : 0,
+                                         "type" : 1,
+                                         "desc" : "满39元减10元",
+                                         "icon" : "http:\/\/resource.line0.com\/img\/filtor_icon\/new\/icn_jian.png"
+                                         },
+                                         {
+                                         "typeCode" : 0,
+                                         "id" : 0,
+                                         "maxDiscount" : 0,
+                                         "typeCodeValue" : 0,
+                                         "initAmount" : 0,
+                                         "type" : 9,
+                                         "desc" : "本店支持使用包邮卡",
+                                         "icon" : "http:\/\/img.line0.com\/static\/cms\/1463565787867.jpg"
+                                         }
+                                         ],
+                         "marketCircleId" : 190,
+                         "productAndPrice" : [
+                         
+                         ],
+                         "share" : null,
+                         "salesInWeek" : 2,
+                         "avgAppPoint" : 4.67,
+                         "tastePoint" : 0,
+                         "productList" : [
+                         
+                         ],
+                         "shopName" : "糊世刺身（文昌巷总店）",
+                         "deliveryMethodId" : 0,
+                         "deliveryMethods" : [
+                         
+                         ],
+                         "shopAnounce" : "",
+                         "deliveryTime" : 60,
+                         "maxDiscountDesc" : "",
+                         "deliveryPhone" : "",
+                         "isInvoice" : 0,
+                         "shopCopyWriters" : [
+                                              "近期销售2份",
+                                              "￥30.0起送",
+                                              "60分钟送达"
+                                              ],
+                         "shopId" : 904,
+                         "shopLogo" : "http:\/\/img6.line0.com\/static\/guanjiashop\/image\/logo\/1467091370638.jpg",
+                         "deliveryMethodType" : 0,
+                         "shopQualification" : {
+                         "qualificationId" : 165,
+                         "isDeleted" : 0,
+                         "status" : 0,
+                         "pageAmount" : 0,
+                         "shopId" : 0,
+                         "sortOrder" : "",
+                         "idCardImg" : "",
+                         "sortProperty" : "",
+                         "lastUpdateTime" : null,
+                         "longLastUpdateTime" : 0,
+                         "curPage" : 0,
+                         "idCard" : "",
+                         "linkman" : "",
+                         "firstRow" : 0,
+                         "createId" : 0,
+                         "foodPermit" : "2014320106000382",
+                         "licenseImg" : "http:\/\/img6.line0.com\/static\/image\/logo\/1447930101240.jpg",
+                         "pageRows" : 0,
+                         "shop" : null,
+                         "createTime" : null,
+                         "lastUpdateId" : 0,
+                         "license" : "320100000160196",
+                         "foodPermitImg" : "http:\/\/img3.line0.com\/static\/image\/logo\/1447930101833.jpg",
+                         "lastURL" : "\/usercenter\/getlistCart.do"
+                         }
+                         },
+                         {
+                         "busiArea" : "",
+                         "deliveryBeginMoney" : 0,
+                         "deliveryFee" : 0,
+                         "marqueeList" : [
+                         
+                         ],
+                         "isOutOfSide" : 0,
+                         "packPoint" : 0,
+                         "specialShopIcon" : "",
+                         "weightPoint" : 0,
+                         "activityList" : null,
+                         "picturePoint" : 0,
+                         "shopTags" : [
+                                       "http:\/\/resource.line0.com\/img\/filtor_icon\/new\/icn_zheng.png"
+                                       ],
+                         "busiTime" : "11:00-21:00",
+                         "shopTagVos" : [
+                                         {
+                                         "id" : 8,
+                                         "imgUrl" : "http:\/\/resource.line0.com\/img\/filtor_icon\/new\/icn_zheng.png"
+                                         }
+                                         ],
+                         "maxDiscount" : 0,
+                         "busiTimeBin" : "000000000000000000000011111111111111111111000000",
+                         "specialShopType" : 0,
+                         "distanceToUser" : 0,
+                         "isInBusiness" : 1,
+                         "shopImageList" : [
+                         
+                         ],
+                         "article" : "",
+                         "activities" : [
+                                         {
+                                         "typeCode" : 0,
+                                         "id" : 0,
+                                         "maxDiscount" : 0,
+                                         "typeCodeValue" : 0,
+                                         "initAmount" : 0,
+                                         "type" : 9,
+                                         "desc" : "本店支持使用包邮卡",
+                                         "icon" : "http:\/\/img.line0.com\/static\/cms\/1463565787867.jpg"
+                                         }
+                                         ],
+                         "marketCircleId" : 109,
+                         "productAndPrice" : [
+                         
+                         ],
+                         "share" : null,
+                         "salesInWeek" : 71,
+                         "avgAppPoint" : 4.81,
+                         "tastePoint" : 0,
+                         "productList" : [
+                         
+                         ],
+                         "shopName" : "新站点比萨（际华广场店）",
+                         "deliveryMethodId" : 0,
+                         "deliveryMethods" : [
+                         
+                         ],
+                         "shopAnounce" : "",
+                         "deliveryTime" : 45,
+                         "maxDiscountDesc" : "",
+                         "deliveryPhone" : "",
+                         "isInvoice" : 0,
+                         "shopCopyWriters" : [
+                                              "近期销售71份",
+                                              "￥0.0起送",
+                                              "45分钟送达"
+                                              ],
+                         "shopId" : 11450,
+                         "shopLogo" : "http:\/\/img1.line0.com\/static\/guanjiashop\/image\/logo\/1474980345593.jpg",
+                         "deliveryMethodType" : 0,
+                         "shopQualification" : {
+                         "qualificationId" : 2331,
+                         "isDeleted" : 0,
+                         "status" : 0,
+                         "pageAmount" : 0,
+                         "shopId" : 0,
+                         "sortOrder" : "",
+                         "idCardImg" : "",
+                         "sortProperty" : "",
+                         "lastUpdateTime" : null,
+                         "longLastUpdateTime" : 0,
+                         "curPage" : 0,
+                         "idCard" : "",
+                         "linkman" : "",
+                         "firstRow" : 0,
+                         "createId" : 0,
+                         "foodPermit" : "2015320103004832",
+                         "licenseImg" : "http:\/\/img3.line0.com\/static\/image\/logo\/1448095633946.jpg",
+                         "pageRows" : 0,
+                         "shop" : null,
+                         "createTime" : null,
+                         "lastUpdateId" : 0,
+                         "license" : "320104600480794",
+                         "foodPermitImg" : "http:\/\/img3.line0.com\/static\/image\/logo\/1448095634601.jpg",
+                         "lastURL" : "\/usercenter\/getlistCart.do"
+                         }
+                         },
+                         {
+                         "busiArea" : "",
+                         "deliveryBeginMoney" : 88,
+                         "deliveryFee" : 0,
+                         "marqueeList" : [
+                         
+                         ],
+                         "isOutOfSide" : 0,
+                         "packPoint" : 0,
+                         "specialShopIcon" : "",
+                         "weightPoint" : 0,
+                         "activityList" : null,
+                         "picturePoint" : 0,
+                         "shopTags" : [
+                                       "http:\/\/resource.line0.com\/img\/filtor_icon\/new\/icn_zheng.png"
+                                       ],
+                         "busiTime" : "10:00-21:30",
+                         "shopTagVos" : [
+                                         {
+                                         "id" : 8,
+                                         "imgUrl" : "http:\/\/resource.line0.com\/img\/filtor_icon\/new\/icn_zheng.png"
+                                         }
+                                         ],
+                         "maxDiscount" : 0,
+                         "busiTimeBin" : "000000000000000000001111111111111111111111100000",
+                         "specialShopType" : 0,
+                         "distanceToUser" : 0,
+                         "isInBusiness" : 1,
+                         "shopImageList" : [
+                         
+                         ],
+                         "article" : "",
+                         "activities" : [
+                                         {
+                                         "typeCode" : 0,
+                                         "id" : 0,
+                                         "maxDiscount" : 0,
+                                         "typeCodeValue" : 0,
+                                         "initAmount" : 0,
+                                         "type" : 9,
+                                         "desc" : "本店支持使用包邮卡",
+                                         "icon" : "http:\/\/img.line0.com\/static\/cms\/1463565787867.jpg"
+                                         }
+                                         ],
+                         "marketCircleId" : 109,
+                         "productAndPrice" : [
+                         
+                         ],
+                         "share" : null,
+                         "salesInWeek" : 16,
+                         "avgAppPoint" : 4.7,
+                         "tastePoint" : 0,
+                         "productList" : [
+                         
+                         ],
+                         "shopName" : "佳养记百味鸡煲（珠江路店）",
+                         "deliveryMethodId" : 0,
+                         "deliveryMethods" : [
+                         
+                         ],
+                         "shopAnounce" : "",
+                         "deliveryTime" : 75,
+                         "maxDiscountDesc" : "",
+                         "deliveryPhone" : "",
+                         "isInvoice" : 0,
+                         "shopCopyWriters" : [
+                                              "近期销售16份",
+                                              "￥88.0起送",
+                                              "75分钟送达"
+                                              ],
+                         "shopId" : 7558,
+                         "shopLogo" : "http:\/\/img2.line0.com\/static\/image\/logo\/1430462240521.jpg",
+                         "deliveryMethodType" : 0,
+                         "shopQualification" : {
+                         "qualificationId" : 8121,
+                         "isDeleted" : 0,
+                         "status" : 0,
+                         "pageAmount" : 0,
+                         "shopId" : 0,
+                         "sortOrder" : "",
+                         "idCardImg" : "",
+                         "sortProperty" : "",
+                         "lastUpdateTime" : null,
+                         "longLastUpdateTime" : 0,
+                         "curPage" : 0,
+                         "idCard" : "",
+                         "linkman" : "",
+                         "firstRow" : 0,
+                         "createId" : 0,
+                         "foodPermit" : "2011320102000245",
+                         "licenseImg" : "http:\/\/img5.line0.com\/static\/image\/logo\/1447866178326.jpg",
+                         "pageRows" : 0,
+                         "shop" : null,
+                         "createTime" : null,
+                         "lastUpdateId" : 0,
+                         "license" : "320102600114296",
+                         "foodPermitImg" : "http:\/\/img2.line0.com\/static\/image\/logo\/1447866179002.jpg",
+                         "lastURL" : "\/usercenter\/getlistCart.do"
+                         }
+                         },
+                         {
+                         "busiArea" : "",
+                         "deliveryBeginMoney" : 0,
+                         "deliveryFee" : 0,
+                         "marqueeList" : [
+                         
+                         ],
+                         "isOutOfSide" : 0,
+                         "packPoint" : 0,
+                         "specialShopIcon" : "",
+                         "weightPoint" : 0,
+                         "activityList" : null,
+                         "picturePoint" : 0,
+                         "shopTags" : [
+                                       "http:\/\/resource.line0.com\/img\/filtor_icon\/new\/icn_zheng.png"
+                                       ],
+                         "busiTime" : "10:00-21:00",
+                         "shopTagVos" : [
+                                         {
+                                         "id" : 8,
+                                         "imgUrl" : "http:\/\/resource.line0.com\/img\/filtor_icon\/new\/icn_zheng.png"
+                                         }
+                                         ],
+                         "maxDiscount" : 0,
+                         "busiTimeBin" : "000000000000000000001111111111111111111111000000",
+                         "specialShopType" : 0,
+                         "distanceToUser" : 0,
+                         "isInBusiness" : 1,
+                         "shopImageList" : [
+                         
+                         ],
+                         "article" : "",
+                         "activities" : [
+                                         {
+                                         "typeCode" : 0,
+                                         "id" : 0,
+                                         "maxDiscount" : 0,
+                                         "typeCodeValue" : 0,
+                                         "initAmount" : 0,
+                                         "type" : 9,
+                                         "desc" : "本店支持使用包邮卡",
+                                         "icon" : "http:\/\/img.line0.com\/static\/cms\/1463565787867.jpg"
+                                         }
+                                         ],
+                         "marketCircleId" : 131,
+                         "productAndPrice" : [
+                         
+                         ],
+                         "share" : null,
+                         "salesInWeek" : 19,
+                         "avgAppPoint" : 4.81,
+                         "tastePoint" : 0,
+                         "productList" : [
+                         
+                         ],
+                         "shopName" : "玉娟肥肠鱼",
+                         "deliveryMethodId" : 0,
+                         "deliveryMethods" : [
+                         
+                         ],
+                         "shopAnounce" : "",
+                         "deliveryTime" : 75,
+                         "maxDiscountDesc" : "",
+                         "deliveryPhone" : "",
+                         "isInvoice" : 0,
+                         "shopCopyWriters" : [
+                                              "近期销售19份",
+                                              "￥0.0起送",
+                                              "75分钟送达"
+                                              ],
+                         "shopId" : 13793,
+                         "shopLogo" : "http:\/\/img2.line0.com\/static\/image\/logo\/1442198155304.jpg",
+                         "deliveryMethodType" : 0,
+                         "shopQualification" : {
+                         "qualificationId" : 8349,
+                         "isDeleted" : 0,
+                         "status" : 0,
+                         "pageAmount" : 0,
+                         "shopId" : 0,
+                         "sortOrder" : "",
+                         "idCardImg" : "",
+                         "sortProperty" : "",
+                         "lastUpdateTime" : null,
+                         "longLastUpdateTime" : 0,
+                         "curPage" : 0,
+                         "idCard" : "",
+                         "linkman" : "",
+                         "firstRow" : 0,
+                         "createId" : 0,
+                         "foodPermit" : "2015320103004786",
+                         "licenseImg" : "http:\/\/img5.line0.com\/static\/image\/logo\/1447928652172.jpg",
+                         "pageRows" : 0,
+                         "shop" : null,
+                         "createTime" : null,
+                         "lastUpdateId" : 0,
+                         "license" : "320104000210713",
+                         "foodPermitImg" : "http:\/\/img6.line0.com\/static\/image\/logo\/1447928652370.jpg",
+                         "lastURL" : "\/usercenter\/getlistCart.do"
+                         }
+                         },
+                         {
+                         "busiArea" : "",
+                         "deliveryBeginMoney" : 0,
+                         "deliveryFee" : 0,
+                         "marqueeList" : [
+                         
+                         ],
+                         "isOutOfSide" : 1,
+                         "packPoint" : 0,
+                         "specialShopIcon" : "",
+                         "weightPoint" : 0,
+                         "activityList" : null,
+                         "picturePoint" : 0,
+                         "shopTags" : [
+                                       "http:\/\/resource.line0.com\/img\/filtor_icon\/new\/icn_fapiao.png",
+                                       "http:\/\/resource.line0.com\/img\/filtor_icon\/new\/icn_zheng.png"
+                                       ],
+                         "busiTime" : "10:00-19:30",
+                         "shopTagVos" : [
+                                         {
+                                         "id" : 3,
+                                         "imgUrl" : "http:\/\/resource.line0.com\/img\/filtor_icon\/new\/icn_fapiao.png"
+                                         },
+                                         {
+                                         "id" : 8,
+                                         "imgUrl" : "http:\/\/resource.line0.com\/img\/filtor_icon\/new\/icn_zheng.png"
+                                         }
+                                         ],
+                         "maxDiscount" : 0,
+                         "busiTimeBin" : "000000000000000000001111111111111111111000000000",
+                         "specialShopType" : 0,
+                         "distanceToUser" : 0,
+                         "isInBusiness" : 1,
+                         "shopImageList" : [
+                         
+                         ],
+                         "article" : "",
+                         "activities" : [
+                                         {
+                                         "typeCode" : 0,
+                                         "id" : 0,
+                                         "maxDiscount" : 0,
+                                         "typeCodeValue" : 0,
+                                         "initAmount" : 0,
+                                         "type" : 9,
+                                         "desc" : "本店支持使用包邮卡",
+                                         "icon" : "http:\/\/img.line0.com\/static\/cms\/1463565787867.jpg"
+                                         }
+                                         ],
+                         "marketCircleId" : 119,
+                         "productAndPrice" : [
+                         
+                         ],
+                         "share" : null,
+                         "salesInWeek" : 43,
+                         "avgAppPoint" : 4.79,
+                         "tastePoint" : 0,
+                         "productList" : [
+                         
+                         ],
+                         "shopName" : "鸭得堡老鸭粉丝汤（珠江路店）",
+                         "deliveryMethodId" : 0,
+                         "deliveryMethods" : [
+                         
+                         ],
+                         "shopAnounce" : "",
+                         "deliveryTime" : 90,
+                         "maxDiscountDesc" : "",
+                         "deliveryPhone" : "",
+                         "isInvoice" : 0,
+                         "shopCopyWriters" : [
+                                              "近期销售43份",
+                                              "￥0.0起送",
+                                              "90分钟送达"
+                                              ],
+                         "shopId" : 17619,
+                         "shopLogo" : "http:\/\/img6.line0.com\/static\/image\/logo\/1461129543860.jpg",
+                         "deliveryMethodType" : 0,
+                         "shopQualification" : {
+                         "qualificationId" : 10699,
+                         "isDeleted" : 0,
+                         "status" : 0,
+                         "pageAmount" : 0,
+                         "shopId" : 0,
+                         "sortOrder" : "",
+                         "idCardImg" : "",
+                         "sortProperty" : "",
+                         "lastUpdateTime" : null,
+                         "longLastUpdateTime" : 0,
+                         "curPage" : 0,
+                         "idCard" : "",
+                         "linkman" : "",
+                         "firstRow" : 0,
+                         "createId" : 0,
+                         "foodPermit" : "2013320102000190",
+                         "licenseImg" : "http:\/\/img2.line0.com\/static\/image\/logo\/1460974417662.jpg",
+                         "pageRows" : 0,
+                         "shop" : null,
+                         "createTime" : null,
+                         "lastUpdateId" : 0,
+                         "license" : "320102600237817",
+                         "foodPermitImg" : "http:\/\/img1.line0.com\/static\/image\/logo\/1460974418458.jpg",
+                         "lastURL" : "\/usercenter\/getlistCart.do"
+                         }
+                         },
+                         {
+                         "busiArea" : "",
+                         "deliveryBeginMoney" : 15,
+                         "deliveryFee" : 0,
+                         "marqueeList" : [
+                         
+                         ],
+                         "isOutOfSide" : 0,
+                         "packPoint" : 0,
+                         "specialShopIcon" : "",
+                         "weightPoint" : 0,
+                         "activityList" : null,
+                         "picturePoint" : 0,
+                         "shopTags" : [
+                                       "http:\/\/resource.line0.com\/img\/filtor_icon\/new\/icn_zheng.png"
+                                       ],
+                         "busiTime" : "10:00-14:00\/16:00-20:00",
+                         "shopTagVos" : [
+                                         {
+                                         "id" : 8,
+                                         "imgUrl" : "http:\/\/resource.line0.com\/img\/filtor_icon\/new\/icn_zheng.png"
+                                         }
+                                         ],
+                         "maxDiscount" : 0,
+                         "busiTimeBin" : "000000000000000000001111111100001111111100000000",
+                         "specialShopType" : 0,
+                         "distanceToUser" : 0,
+                         "isInBusiness" : 1,
+                         "shopImageList" : [
+                         
+                         ],
+                         "article" : "",
+                         "activities" : [
+                                         {
+                                         "typeCode" : 0,
+                                         "id" : 0,
+                                         "maxDiscount" : 0,
+                                         "typeCodeValue" : 0,
+                                         "initAmount" : 0,
+                                         "type" : 9,
+                                         "desc" : "本店支持使用包邮卡",
+                                         "icon" : "http:\/\/img.line0.com\/static\/cms\/1463565787867.jpg"
+                                         }
+                                         ],
+                         "marketCircleId" : 132,
+                         "productAndPrice" : [
+                         
+                         ],
+                         "share" : null,
+                         "salesInWeek" : 15,
+                         "avgAppPoint" : 4.72,
+                         "tastePoint" : 0,
+                         "productList" : [
+                         
+                         ],
+                         "shopName" : "富叔香港烧腊",
+                         "deliveryMethodId" : 0,
+                         "deliveryMethods" : [
+                         
+                         ],
+                         "shopAnounce" : "",
+                         "deliveryTime" : 75,
+                         "maxDiscountDesc" : "",
+                         "deliveryPhone" : "",
+                         "isInvoice" : 0,
+                         "shopCopyWriters" : [
+                                              "近期销售15份",
+                                              "￥15.0起送",
+                                              "75分钟送达"
+                                              ],
+                         "shopId" : 18001,
+                         "shopLogo" : "http:\/\/img2.line0.com\/static\/image\/logo\/1467011593757.jpg",
+                         "deliveryMethodType" : 0,
+                         "shopQualification" : {
+                         "qualificationId" : 11099,
+                         "isDeleted" : 0,
+                         "status" : 0,
+                         "pageAmount" : 0,
+                         "shopId" : 0,
+                         "sortOrder" : "",
+                         "idCardImg" : "",
+                         "sortProperty" : "",
+                         "lastUpdateTime" : null,
+                         "longLastUpdateTime" : 0,
+                         "curPage" : 0,
+                         "idCard" : "",
+                         "linkman" : "",
+                         "firstRow" : 0,
+                         "createId" : 0,
+                         "foodPermit" : "32010400020160520003",
+                         "licenseImg" : "http:\/\/img4.line0.com\/static\/image\/logo\/1466427443913.jpg",
+                         "pageRows" : 0,
+                         "shop" : null,
+                         "createTime" : null,
+                         "lastUpdateId" : 0,
+                         "license" : "32010400001509020084",
+                         "foodPermitImg" : "http:\/\/img6.line0.com\/static\/image\/logo\/1466427444604.jpg",
+                         "lastURL" : "\/usercenter\/getlistCart.do"
+                         }
+                         },
+                         {
+                         "busiArea" : "",
+                         "deliveryBeginMoney" : 15,
+                         "deliveryFee" : 0,
+                         "marqueeList" : [
+                         
+                         ],
+                         "isOutOfSide" : 0,
+                         "packPoint" : 0,
+                         "specialShopIcon" : "",
+                         "weightPoint" : 0,
+                         "activityList" : null,
+                         "picturePoint" : 0,
+                         "shopTags" : [
+                                       "http:\/\/resource.line0.com\/img\/filtor_icon\/new\/icn_fapiao.png",
+                                       "http:\/\/resource.line0.com\/img\/filtor_icon\/new\/icn_zheng.png"
+                                       ],
+                         "busiTime" : "10:00-21:00",
+                         "shopTagVos" : [
+                                         {
+                                         "id" : 3,
+                                         "imgUrl" : "http:\/\/resource.line0.com\/img\/filtor_icon\/new\/icn_fapiao.png"
+                                         },
+                                         {
+                                         "id" : 8,
+                                         "imgUrl" : "http:\/\/resource.line0.com\/img\/filtor_icon\/new\/icn_zheng.png"
+                                         }
+                                         ],
+                         "maxDiscount" : 0,
+                         "busiTimeBin" : "000000000000000000001111111111111111111111000000",
+                         "specialShopType" : 0,
+                         "distanceToUser" : 0,
+                         "isInBusiness" : 1,
+                         "shopImageList" : [
+                         
+                         ],
+                         "article" : "",
+                         "activities" : [
+                                         {
+                                         "typeCode" : 0,
+                                         "id" : 0,
+                                         "maxDiscount" : 0,
+                                         "typeCodeValue" : 0,
+                                         "initAmount" : 0,
+                                         "type" : 9,
+                                         "desc" : "本店支持使用包邮卡",
+                                         "icon" : "http:\/\/img.line0.com\/static\/cms\/1463565787867.jpg"
+                                         }
+                                         ],
+                         "marketCircleId" : 132,
+                         "productAndPrice" : [
+                         
+                         ],
+                         "share" : null,
+                         "salesInWeek" : 11,
+                         "avgAppPoint" : 4.59,
+                         "tastePoint" : 0,
+                         "productList" : [
+                         
+                         ],
+                         "shopName" : "蕉叶餐厅（水游城店）",
+                         "deliveryMethodId" : 0,
+                         "deliveryMethods" : [
+                         
+                         ],
+                         "shopAnounce" : "",
+                         "deliveryTime" : 60,
+                         "maxDiscountDesc" : "",
+                         "deliveryPhone" : "",
+                         "isInvoice" : 0,
+                         "shopCopyWriters" : [
+                                              "近期销售11份",
+                                              "￥15.0起送",
+                                              "60分钟送达"
+                                              ],
+                         "shopId" : 17620,
+                         "shopLogo" : "http:\/\/img2.line0.com\/static\/image\/logo\/1461562999851.jpg",
+                         "deliveryMethodType" : 0,
+                         "shopQualification" : {
+                         "qualificationId" : 10700,
+                         "isDeleted" : 0,
+                         "status" : 0,
+                         "pageAmount" : 0,
+                         "shopId" : 0,
+                         "sortOrder" : "",
+                         "idCardImg" : "",
+                         "sortProperty" : "",
+                         "lastUpdateTime" : null,
+                         "longLastUpdateTime" : 0,
+                         "curPage" : 0,
+                         "idCard" : "",
+                         "linkman" : "蔡少文",
+                         "firstRow" : 0,
+                         "createId" : 0,
+                         "foodPermit" : "2014320103002287",
+                         "licenseImg" : "http:\/\/img7.line0.com\/static\/image\/logo\/1460974635456.jpg",
+                         "pageRows" : 0,
+                         "shop" : null,
+                         "createTime" : null,
+                         "lastUpdateId" : 0,
+                         "license" : "320104000120839",
+                         "foodPermitImg" : "http:\/\/img3.line0.com\/static\/image\/logo\/1460974635632.jpg",
+                         "lastURL" : "\/usercenter\/getlistCart.do"
+                         }
+                         },
+                         {
+                         "busiArea" : "",
+                         "deliveryBeginMoney" : 0,
+                         "deliveryFee" : 0,
+                         "marqueeList" : [
+                         
+                         ],
+                         "isOutOfSide" : 0,
+                         "packPoint" : 0,
+                         "specialShopIcon" : "",
+                         "weightPoint" : 0,
+                         "activityList" : null,
+                         "picturePoint" : 0,
+                         "shopTags" : [
+                                       "http:\/\/resource.line0.com\/img\/filtor_icon\/new\/icn_zheng.png"
+                                       ],
+                         "busiTime" : "10:00-21:30",
+                         "shopTagVos" : [
+                                         {
+                                         "id" : 8,
+                                         "imgUrl" : "http:\/\/resource.line0.com\/img\/filtor_icon\/new\/icn_zheng.png"
+                                         }
+                                         ],
+                         "maxDiscount" : 0,
+                         "busiTimeBin" : "000000000000000000001111111111111111111111100000",
+                         "specialShopType" : 0,
+                         "distanceToUser" : 0,
+                         "isInBusiness" : 1,
+                         "shopImageList" : [
+                         
+                         ],
+                         "article" : "",
+                         "activities" : [
+                                         {
+                                         "typeCode" : 0,
+                                         "id" : 0,
+                                         "maxDiscount" : 0,
+                                         "typeCodeValue" : 0,
+                                         "initAmount" : 0,
+                                         "type" : 9,
+                                         "desc" : "本店支持使用包邮卡",
+                                         "icon" : "http:\/\/img.line0.com\/static\/cms\/1463565787867.jpg"
+                                         }
+                                         ],
+                         "marketCircleId" : 132,
+                         "productAndPrice" : [
+                         
+                         ],
+                         "share" : null,
+                         "salesInWeek" : 13,
+                         "avgAppPoint" : 4.72,
+                         "tastePoint" : 0,
+                         "productList" : [
+                         
+                         ],
+                         "shopName" : "红火飞扬老汤面疙瘩（仙鹤街店）",
+                         "deliveryMethodId" : 0,
+                         "deliveryMethods" : [
+                         
+                         ],
+                         "shopAnounce" : "",
+                         "deliveryTime" : 75,
+                         "maxDiscountDesc" : "",
+                         "deliveryPhone" : "",
+                         "isInvoice" : 0,
+                         "shopCopyWriters" : [
+                                              "近期销售13份",
+                                              "￥0.0起送",
+                                              "75分钟送达"
+                                              ],
+                         "shopId" : 992,
+                         "shopLogo" : "http:\/\/img.line0.com\/static\/\/image\/logo\/1387776528322.jpg",
+                         "deliveryMethodType" : 0,
+                         "shopQualification" : {
+                         "qualificationId" : 241,
+                         "isDeleted" : 0,
+                         "status" : 0,
+                         "pageAmount" : 0,
+                         "shopId" : 0,
+                         "sortOrder" : "",
+                         "idCardImg" : "",
+                         "sortProperty" : "",
+                         "lastUpdateTime" : null,
+                         "longLastUpdateTime" : 0,
+                         "curPage" : 0,
+                         "idCard" : "",
+                         "linkman" : "",
+                         "firstRow" : 0,
+                         "createId" : 0,
+                         "foodPermit" : "201532003455",
+                         "licenseImg" : "http:\/\/img1.line0.com\/static\/image\/logo\/1447928521930.jpg",
+                         "pageRows" : 0,
+                         "shop" : null,
+                         "createTime" : null,
+                         "lastUpdateId" : 0,
+                         "license" : "320104600456177",
+                         "foodPermitImg" : "http:\/\/img7.line0.com\/static\/image\/logo\/1447928522120.jpg",
+                         "lastURL" : "\/usercenter\/getlistCart.do"
+                         }
+                         },
+                         {
+                         "busiArea" : "",
+                         "deliveryBeginMoney" : 40,
+                         "deliveryFee" : 0,
+                         "marqueeList" : [
+                         
+                         ],
+                         "isOutOfSide" : 0,
+                         "packPoint" : 0,
+                         "specialShopIcon" : "",
+                         "weightPoint" : 0,
+                         "activityList" : null,
+                         "picturePoint" : 0,
+                         "shopTags" : [
+                                       "http:\/\/resource.line0.com\/img\/filtor_icon\/new\/icn_zheng.png"
+                                       ],
+                         "busiTime" : "11:30-21:30",
+                         "shopTagVos" : [
+                                         {
+                                         "id" : 8,
+                                         "imgUrl" : "http:\/\/resource.line0.com\/img\/filtor_icon\/new\/icn_zheng.png"
+                                         }
+                                         ],
+                         "maxDiscount" : 0,
+                         "busiTimeBin" : "000000000000000000000001111111111111111111100000",
+                         "specialShopType" : 0,
+                         "distanceToUser" : 0,
+                         "isInBusiness" : 0,
+                         "shopImageList" : [
+                         
+                         ],
+                         "article" : "",
+                         "activities" : [
+                                         {
+                                         "typeCode" : 0,
+                                         "id" : 0,
+                                         "maxDiscount" : 0,
+                                         "typeCodeValue" : 0,
+                                         "initAmount" : 0,
+                                         "type" : 9,
+                                         "desc" : "本店支持使用包邮卡",
+                                         "icon" : "http:\/\/img.line0.com\/static\/cms\/1463565787867.jpg"
+                                         }
+                                         ],
+                         "marketCircleId" : 131,
+                         "productAndPrice" : [
+                         
+                         ],
+                         "share" : null,
+                         "salesInWeek" : 30,
+                         "avgAppPoint" : 4.76,
+                         "tastePoint" : 0,
+                         "productList" : [
+                         
+                         ],
+                         "shopName" : "疯狂烤翅（石鼓路店）",
+                         "deliveryMethodId" : 0,
+                         "deliveryMethods" : [
+                         
+                         ],
+                         "shopAnounce" : "",
+                         "deliveryTime" : 75,
+                         "maxDiscountDesc" : "",
+                         "deliveryPhone" : "",
+                         "isInvoice" : 0,
+                         "shopCopyWriters" : [
+                                              "近期销售30份",
+                                              "￥40.0起送",
+                                              "75分钟送达"
+                                              ],
+                         "shopId" : 1336,
+                         "shopLogo" : "http:\/\/img.line0.com\/static\/\/image\/logo\/1396926642943.jpg",
+                         "deliveryMethodType" : 0,
+                         "shopQualification" : {
+                         "qualificationId" : 1127,
+                         "isDeleted" : 0,
+                         "status" : 0,
+                         "pageAmount" : 0,
+                         "shopId" : 0,
+                         "sortOrder" : "",
+                         "idCardImg" : "",
+                         "sortProperty" : "",
+                         "lastUpdateTime" : null,
+                         "longLastUpdateTime" : 0,
+                         "curPage" : 0,
+                         "idCard" : "",
+                         "linkman" : "",
+                         "firstRow" : 0,
+                         "createId" : 0,
+                         "foodPermit" : "2013320103001398",
+                         "licenseImg" : "http:\/\/img4.line0.com\/static\/image\/logo\/1447851328059.jpg",
+                         "pageRows" : 0,
+                         "shop" : null,
+                         "createTime" : null,
+                         "lastUpdateId" : 0,
+                         "license" : "320104600366530",
+                         "foodPermitImg" : "http:\/\/img6.line0.com\/static\/image\/logo\/1447851328274.jpg",
+                         "lastURL" : "\/usercenter\/getlistCart.do"
+                         }
+                         }
+                         ],
+        "marqueeList" : [
+                         {
+                         "cityId" : 0,
+                         "content" : "食品安全无小事，零号线平台内带“证”字标商户开放两证查询。在商户店铺内，点击顶部跑马灯公告，即可查询该商户《工商营业执照》、《餐饮服务许可证》信息。零号线承诺：你们放心吃，安全把关我来！",
+                         "shopId" : 0,
+                         "url" : "http:\/\/mobile.line0.com\/h5_page\/shopQualificationHelp.html",
+                         "marketCircleId" : 0,
+                         "title" : "进入带证字标的商户可查看两证",
+                         "marqueeId" : 0,
+                         "goneType" : 0
+                         },
+                         {
+                         "cityId" : 0,
+                         "content" : "拍摄零小哥或美食照片分享至朋友圈，分享文字包含“零号线”，将截屏发至零号线公众号（微信号：line0_wx）可获得10元抵用券1张！ 分组或私密分享无效；每人每天至多领券1张；同一订单多次分享无效。",
+                         "shopId" : 0,
+                         "url" : "",
+                         "marketCircleId" : 0,
+                         "title" : "晒单有奖！分享朋友圈领10元！",
+                         "marqueeId" : 100,
+                         "goneType" : 1
+                         }
+                         ],
+        "categories" : [
+                        {
+                        "id" : 1,
+                        "icon" : "http:\/\/image.line0.com\/icn_main_chineserestaurant.png",
+                        "name" : "中式餐厅"
+                        },
+                        {
+                        "id" : 2,
+                        "icon" : "http:\/\/image.line0.com\/icn_main_noddle.png",
+                        "name" : "馄饨面食"
+                        },
+                        {
+                        "id" : 3,
+                        "icon" : "http:\/\/image.line0.com\/icn_main_chinese_mea.png",
+                        "name" : "便当套餐"
+                        },
+                        {
+                        "id" : 4,
+                        "icon" : "http:\/\/image.line0.com\/icn_main_westernfood.png",
+                        "name" : "西式餐点"
+                        },
+                        {
+                        "id" : 5,
+                        "icon" : "http:\/\/image.line0.com\/icn_main_western_japan.png",
+                        "name" : "日韩料理"
+                        },
+                        {
+                        "id" : 6,
+                        "icon" : "http:\/\/image.line0.com\/icn_main_affernoontea.png",
+                        "name" : "下午茶"
+                        },
+                        {
+                        "id" : 7,
+                        "icon" : "http:\/\/image.line0.com\/icn_main_snack.png",
+                        "name" : "休闲小吃"
+                        },
+                        {
+                        "id" : 0,
+                        "icon" : "http:\/\/image.line0.com\/icn_main_all.png",
+                        "name" : "全部"
+                        }
+                        ],
+        "hasSnapUp" : 0,
+        "msg" : "请求成功",
+        "bannerList" : [
+                        {
+                        "cityId" : 0,
+                        "imgUrl" : "http:\/\/img.line0.com\/static\/mcms\/1480469672787.jpg",
+                        "shopId" : 0,
+                        "id" : 907,
+                        "productId" : 0,
+                        "title" : "下单就送冰红茶一罐",
+                        "url" : "http:\/\/mobile.line0.com\/activity\/anno\/announcement.html?bannerId=907",
+                        "subTitle" : "",
+                        "goneType" : 1
+                        },
+                        {
+                        "cityId" : 0,
+                        "imgUrl" : "http:\/\/img.line0.com\/static\/mcms\/1478137065129.jpg",
+                        "shopId" : 0,
+                        "id" : 905,
+                        "productId" : 0,
+                        "title" : "招行一网通福利升级立减10元",
+                        "url" : "http:\/\/mobile.line0.com\/activity\/anno\/announcement.html?bannerId=905",
+                        "subTitle" : "",
+                        "goneType" : 1
+                        },
+                        {
+                        "cityId" : 0,
+                        "imgUrl" : "http:\/\/img.line0.com\/static\/mcms\/1467620326694.jpg",
+                        "shopId" : 0,
+                        "id" : 889,
+                        "productId" : 0,
+                        "title" : "9.9任性吃",
+                        "url" : "http:\/\/mobile.line0.com\/activity\/rx\/index.html",
+                        "subTitle" : "",
+                        "goneType" : 0
+                        }
+                        ],
+        "modules" : [
+                     {
+                     "gotoUrl" : "zline:\/\/deliverycard",
+                     "id" : 1,
+                     "content" : "包邮卡 包邮一整夏",
+                     "icon" : "http:\/\/img.line0.com\/static\/cms\/1468483410894.jpg",
+                     "name" : "包邮卡",
+                     "snapUpLocation" : 2
+                     },
+                     {
+                     "gotoUrl" : "http:\/\/mobile.line0.com\/activity\/rx\/index.html",
+                     "id" : 2,
+                     "content" : "爆款直降 吃货必尝",
+                     "icon" : "http:\/\/img.line0.com\/static\/cms\/1467789655787.png",
+                     "name" : "9.9任性吃",
+                     "snapUpLocation" : 2
+                     },
+                     {
+                     "gotoUrl" : "",
+                     "id" : 3,
+                     "content" : "有便宜不占是傻蛋",
+                     "icon" : "http:\/\/mobile.line0.com\/images\/icn_main_model_youhui.png",
+                     "name" : "优惠专区",
+                     "snapUpLocation" : 1
+                     },
+                     {
+                     "gotoUrl" : "http:\/\/mobile.line0.com\/activity\/wechatSpread\/html\/share4app.html",
+                     "id" : 5,
+                     "content" : "邀请好友    优惠享不停 ",
+                     "icon" : "http:\/\/img.line0.com\/static\/cms\/1463665691623.png",
+                     "name" : "邀请好友",
+                     "snapUpLocation" : 2
+                     }
+                     ],
+        "errorCode" : 1
+    }
+}
