@@ -8,6 +8,13 @@
 
 #import "BaseViewModel.h"
 
-@interface LoginViewModel : BaseViewModel
+@interface Account : NSObject
+@property(nonatomic, strong)NSString      *userName;
+@property(nonatomic, strong)NSString      *password;
+@end
 
+@interface LoginViewModel : BaseViewModel
+@property(nonatomic, strong)RACSignal     *enableLoginSignal;
+@property(nonatomic, strong)RACCommand     *loginCommand;
+@property(nonatomic, strong)Account                 *account;
 @end

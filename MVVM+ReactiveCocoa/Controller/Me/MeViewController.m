@@ -19,7 +19,9 @@
     [super viewDidLoad];
     self.title = @"个人中心";
     
+    @weakify(self)
     [[self.loginBtn rac_signalForControlEvents:UIControlEventTouchUpInside]subscribeNext:^(id x) {
+        @strongify(self)
         LoginViewController *loginVC = [[LoginViewController alloc]init];
         [self.navigationController pushViewController:loginVC animated:YES];
     }];

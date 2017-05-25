@@ -65,10 +65,25 @@ static BaseRequest *baseRequest = nil;
     return baseRequest;
 }
 
-//+ (NSMutableDictionary *)appendDefaultPars:(NSDictionary *)pars isNeedLocation:(BOOL)isNeedLocation{
-//    NSMutableDictionary *params = [NSMutableDictionary dictionary];
-//    UserAddressModel *model = [UserDefaultControl shareInstance].cacheUserAddrModel;
-//}
+- (NSMutableDictionary *)defaultPars:(NSDictionary *)pars isNeedLocation:(BOOL)isNeedLocation{
+    NSMutableDictionary *params = [NSMutableDictionary dictionary];
+    [params setObject:@"1" forKey:@"cityId"];
+    [params setObject:@"" forKey:@"userToken"];
+    [params setObject:@"3" forKey:@"deviceType"];
+    [params setObject:@"3" forKey:@"source"];
+    
+    if (isNeedLocation)
+    {
+        [params setObject:@"118.8067112198866" forKey:@"userX"];
+        [params setObject:@"32.03299303289314" forKey:@"userY"];
+    }
+    
+    if (pars && [pars isKindOfClass:[NSDictionary class]])
+    {
+        [params addEntriesFromDictionary:pars];
+    }
+    return params;
+}
 
 - (instancetype)copyWithZone:(NSZone *)zone{
     return baseRequest;
