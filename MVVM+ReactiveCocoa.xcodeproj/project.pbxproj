@@ -56,6 +56,11 @@
 		4EFBE8CE1E03D81300E7FA41 /* BaseViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 4EFBE8AD1E03D81300E7FA41 /* BaseViewModel.m */; };
 		4EFBE8CF1E03D81300E7FA41 /* HomeViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 4EFBE8B11E03D81300E7FA41 /* HomeViewModel.m */; };
 		792EE3402ABB4D389216FFA5 /* libPods-MVVM+ReactiveCocoa.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 98AE90246ADB29DFC934C258 /* libPods-MVVM+ReactiveCocoa.a */; };
+		DCE2179C1ED6A9E000246B73 /* ShopListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DCE2179A1ED6A9E000246B73 /* ShopListViewController.m */; };
+		DCE2179D1ED6A9E000246B73 /* ShopListViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = DCE2179B1ED6A9E000246B73 /* ShopListViewController.xib */; };
+		DCE217A21ED6AFF300246B73 /* LoginViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = DCE217A11ED6AFF300246B73 /* LoginViewModel.m */; };
+		DCE217A71ED6B41300246B73 /* LoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DCE217A51ED6B41300246B73 /* LoginViewController.m */; };
+		DCE217A81ED6B41300246B73 /* LoginViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = DCE217A61ED6B41300246B73 /* LoginViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -141,6 +146,14 @@
 		4EFBE8B01E03D81300E7FA41 /* HomeViewModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HomeViewModel.h; sourceTree = "<group>"; };
 		4EFBE8B11E03D81300E7FA41 /* HomeViewModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HomeViewModel.m; sourceTree = "<group>"; };
 		98AE90246ADB29DFC934C258 /* libPods-MVVM+ReactiveCocoa.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-MVVM+ReactiveCocoa.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		DCE217991ED6A9E000246B73 /* ShopListViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ShopListViewController.h; sourceTree = "<group>"; };
+		DCE2179A1ED6A9E000246B73 /* ShopListViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ShopListViewController.m; sourceTree = "<group>"; };
+		DCE2179B1ED6A9E000246B73 /* ShopListViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ShopListViewController.xib; sourceTree = "<group>"; };
+		DCE217A01ED6AFF300246B73 /* LoginViewModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LoginViewModel.h; sourceTree = "<group>"; };
+		DCE217A11ED6AFF300246B73 /* LoginViewModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LoginViewModel.m; sourceTree = "<group>"; };
+		DCE217A41ED6B41300246B73 /* LoginViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LoginViewController.h; sourceTree = "<group>"; };
+		DCE217A51ED6B41300246B73 /* LoginViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LoginViewController.m; sourceTree = "<group>"; };
+		DCE217A61ED6B41300246B73 /* LoginViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LoginViewController.xib; sourceTree = "<group>"; };
 		EEFF8BCA67BB46FFA97572B8 /* Pods-MVVM+ReactiveCocoa.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MVVM+ReactiveCocoa.release.xcconfig"; path = "Pods/Target Support Files/Pods-MVVM+ReactiveCocoa/Pods-MVVM+ReactiveCocoa.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -234,6 +247,7 @@
 		4EFBE8681E03D81300E7FA41 /* Controller */ = {
 			isa = PBXGroup;
 			children = (
+				DCE217981ED6A9BB00246B73 /* Shop */,
 				4EFBE8691E03D81300E7FA41 /* BaseViewController.h */,
 				4EFBE86A1E03D81300E7FA41 /* BaseViewController.m */,
 				4EFBE86B1E03D81300E7FA41 /* Cart */,
@@ -269,6 +283,7 @@
 		4EFBE8751E03D81300E7FA41 /* Me */ = {
 			isa = PBXGroup;
 			children = (
+				DCE217A31ED6B3F700246B73 /* Login */,
 				4EFBE8761E03D81300E7FA41 /* Me.storyboard */,
 				4EFBE8771E03D81300E7FA41 /* MeViewController.h */,
 				4EFBE8781E03D81300E7FA41 /* MeViewController.m */,
@@ -443,6 +458,7 @@
 		4EFBE8AB1E03D81300E7FA41 /* ViewModel */ = {
 			isa = PBXGroup;
 			children = (
+				DCE2179E1ED6AFDA00246B73 /* Me */,
 				4EFBE8AC1E03D81300E7FA41 /* BaseViewModel.h */,
 				4EFBE8AD1E03D81300E7FA41 /* BaseViewModel.m */,
 				4EFBE8AE1E03D81300E7FA41 /* Cart */,
@@ -482,6 +498,43 @@
 				98AE90246ADB29DFC934C258 /* libPods-MVVM+ReactiveCocoa.a */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		DCE217981ED6A9BB00246B73 /* Shop */ = {
+			isa = PBXGroup;
+			children = (
+				DCE217991ED6A9E000246B73 /* ShopListViewController.h */,
+				DCE2179A1ED6A9E000246B73 /* ShopListViewController.m */,
+				DCE2179B1ED6A9E000246B73 /* ShopListViewController.xib */,
+			);
+			path = Shop;
+			sourceTree = "<group>";
+		};
+		DCE2179E1ED6AFDA00246B73 /* Me */ = {
+			isa = PBXGroup;
+			children = (
+				DCE2179F1ED6AFDA00246B73 /* Login */,
+			);
+			path = Me;
+			sourceTree = "<group>";
+		};
+		DCE2179F1ED6AFDA00246B73 /* Login */ = {
+			isa = PBXGroup;
+			children = (
+				DCE217A01ED6AFF300246B73 /* LoginViewModel.h */,
+				DCE217A11ED6AFF300246B73 /* LoginViewModel.m */,
+			);
+			path = Login;
+			sourceTree = "<group>";
+		};
+		DCE217A31ED6B3F700246B73 /* Login */ = {
+			isa = PBXGroup;
+			children = (
+				DCE217A41ED6B41300246B73 /* LoginViewController.h */,
+				DCE217A51ED6B41300246B73 /* LoginViewController.m */,
+				DCE217A61ED6B41300246B73 /* LoginViewController.xib */,
+			);
+			path = Login;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -550,6 +603,7 @@
 				4E13EB931E6E607A00CBE5A9 /* activityItem.xib in Resources */,
 				4EBF7AD21E0A5EBF00E8A2DC /* HomePage.json in Resources */,
 				4E13EB941E6E607A00CBE5A9 /* CategoriesScrollItem.xib in Resources */,
+				DCE2179D1ED6A9E000246B73 /* ShopListViewController.xib in Resources */,
 				4EFBE8C61E03D81300E7FA41 /* NavigationBell@2x.png in Resources */,
 				4EFBE8C01E03D81300E7FA41 /* NavBarWhite44@2x.png in Resources */,
 				4E76C37C1E603D590040362F /* starhighlighted@2x.png in Resources */,
@@ -567,6 +621,7 @@
 				4E13EB971E6E607A00CBE5A9 /* TaskPointView.xib in Resources */,
 				4EFBE8C71E03D81300E7FA41 /* NavigationSquare@2x.png in Resources */,
 				4E5E7CB91E02B57300839A7E /* Assets.xcassets in Resources */,
+				DCE217A81ED6B41300246B73 /* LoginViewController.xib in Resources */,
 				4E5E7CB71E02B57300839A7E /* Main.storyboard in Resources */,
 				4E13EB961E6E607A00CBE5A9 /* ShoppingGuideView.xib in Resources */,
 				4E76C37B1E603D590040362F /* star@2x.png in Resources */,
@@ -603,7 +658,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
 			showEnvVarsInLog = 0;
 		};
 		FF09A4338B983FEC5E0A1275 /* [CP] Embed Pods Frameworks */ = {
@@ -630,7 +685,10 @@
 			files = (
 				4EFBE8CD1E03D81300E7FA41 /* NSDictionary+Addition.m in Sources */,
 				4EBF7AD51E0A611100E8A2DC /* SystemControl.m in Sources */,
+				DCE217A21ED6AFF300246B73 /* LoginViewModel.m in Sources */,
 				4EFBE8B71E03D81300E7FA41 /* MainTabBarController.m in Sources */,
+				DCE2179C1ED6A9E000246B73 /* ShopListViewController.m in Sources */,
+				DCE217A71ED6B41300246B73 /* LoginViewController.m in Sources */,
 				4EFBE8C81E03D81300E7FA41 /* DES3Util.m in Sources */,
 				4EFBE8B31E03D81300E7FA41 /* CartViewController.m in Sources */,
 				4EFBE8B21E03D81300E7FA41 /* BaseViewController.m in Sources */,
