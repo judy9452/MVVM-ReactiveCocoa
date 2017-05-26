@@ -35,15 +35,42 @@
 @implementation BaseRequest
 static BaseRequest *baseRequest = nil;
 
-+ (BaseRequest *)shareInstance{
++ (instancetype)shareInstance{
     static dispatch_once_t onceToken;
     dispatch_once(&onceToken, ^{
         if (baseRequest == nil) {
-            baseRequest = [[self alloc]init];
+            baseRequest = [[self alloc]initWithBaseURL:[NSURL URLWithString:kBaseUrl]];
         }
     });
     
     return baseRequest;
+}
+
+-(instancetype)initWithBaseURL:(NSURL *)url{
+    self = [super initWithBaseURL:url];
+    if (self) {
+        self.requestSerializer = [AFJSONRequestSerializer serializer];
+        self.responseSerializer = [AFHTTPResponseSerializer serializer];
+        [self.requestSerializer setValue:@"application/json" forHTTPHeaderField:@"Accept"];
+        [self.requestSerializer setValue:@"application/json" forHTTPHeaderField:@"Content-Type"];
+        [self.requestSerializer setValue:@"69" forHTTPHeaderField:@"version"];
+        [self.requestSerializer setValue:@"3" forHTTPHeaderField:@"platform"];
+        [self.requestSerializer setValue:@"3" forHTTPHeaderField:@"source"];
+        [self.requestSerializer setValue:@"1" forHTTPHeaderField:@"deviceType"];
+        [self.requestSerializer setValue:@"" forHTTPHeaderField:@"registrationId"];
+        [self.requestSerializer setValue:@([[NSDate date] timeIntervalSince1970]).stringValue forHTTPHeaderField:@"requestTimeStr"];
+        self.responseSerializer.acceptableContentTypes = [NSSet setWithArray:@[@"application/json",
+                                                                                       @"text/html",
+                                                                                       @"text/json",
+                                                                                       @"text/plain",
+                                                                                       @"text/javascript",
+                                                                                       @"text/xml",
+                                                                                       @"image/*"]];
+        self.requestSerializer.stringEncoding = NSUTF8StringEncoding;
+        self.securityPolicy.allowInvalidCertificates = YES;
+
+    }
+    return self;
 }
 
 + (void)netWorkStatus{
@@ -95,68 +122,71 @@ static BaseRequest *baseRequest = nil;
     return err;
 }
 
-- (AFHTTPSessionManager *)createAFHTTPSessionManager{
-    AFHTTPSessionManager    *manager = [[AFHTTPSessionManager alloc]initWithBaseURL:[NSURL URLWithString:@"http://handset.line0.com/ws/handset/v10/"]];
-    manager.requestSerializer = [AFJSONRequestSerializer serializer];
-    manager.responseSerializer = [AFHTTPResponseSerializer serializer];
-    [manager.requestSerializer setValue:@"application/json" forHTTPHeaderField:@"Accept"];
-    [manager.requestSerializer setValue:@"application/json" forHTTPHeaderField:@"Content-Type"];
-    [manager.requestSerializer setValue:@"69" forHTTPHeaderField:@"version"];
-    [manager.requestSerializer setValue:@"3" forHTTPHeaderField:@"platform"];
-    [manager.requestSerializer setValue:@"1" forHTTPHeaderField:@"deviceType"];
-    [manager.requestSerializer setValue:@"" forHTTPHeaderField:@"registrationId"];
-    [manager.requestSerializer setValue:@([[NSDate date] timeIntervalSince1970]).stringValue forHTTPHeaderField:@"requestTimeStr"];
-    manager.responseSerializer.acceptableContentTypes = [NSSet setWithArray:@[@"application/json",
-                                                                              @"text/html",
-                                                                              @"text/json",
-                                                                              @"text/plain",
-                                                                              @"text/javascript",
-                                                                              @"text/xml",
-                                                                              @"image/*"]];
-    manager.requestSerializer.stringEncoding = NSUTF8StringEncoding;
-    return manager;
-}
+//- (AFHTTPSessionManager *)createAFHTTPSessionManager{
+//    self.manager = [[AFHTTPSessionManager alloc]initWithBaseURL:[NSURL URLWithString:kBaseUrl]];
+//    self.manager.requestSerializer = [AFJSONRequestSerializer serializer];
+//    self.manager.responseSerializer = [AFHTTPResponseSerializer serializer];
+//    [self.manager.requestSerializer setValue:@"application/json" forHTTPHeaderField:@"Accept"];
+//    [self.manager.requestSerializer setValue:@"application/json" forHTTPHeaderField:@"Content-Type"];
+//    [self.manager.requestSerializer setValue:@"69" forHTTPHeaderField:@"version"];
+//    [self.manager.requestSerializer setValue:@"3" forHTTPHeaderField:@"platform"];
+//    [self.manager.requestSerializer setValue:@"1" forHTTPHeaderField:@"deviceType"];
+//    [self.manager.requestSerializer setValue:@"" forHTTPHeaderField:@"registrationId"];
+//    [self.manager.requestSerializer setValue:@([[NSDate date] timeIntervalSince1970]).stringValue forHTTPHeaderField:@"requestTimeStr"];
+//    self.manager.responseSerializer.acceptableContentTypes = [NSSet setWithArray:@[@"application/json",
+//                                                                              @"text/html",
+//                                                                              @"text/json",
+//                                                                              @"text/plain",
+//                                                                              @"text/javascript",
+//                                                                              @"text/xml",
+//                                                                              @"image/*"]];
+//    self.manager.requestSerializer.stringEncoding = NSUTF8StringEncoding;
+//    return self.manager;
+//}
 
 
-- (void)GET:(NSString *)path params:(NSDictionary *)params completeBlock:(void (^)(BOOL isSuccess, NSDictionary *dict,NSError *err))completeBlock{
-    [self requestWithApi:RequestTypeGET path:path params:params completeBlock:completeBlock];
-}
+//- (void)GET:(NSString *)path params:(NSDictionary *)params completeBlock:(void (^)(BOOL isSuccess, NSDictionary *dict,NSError *err))completeBlock{
+//    [self requestWithApi:RequestTypeGET path:path params:params completeBlock:completeBlock];
+//}
+//
+//- (void)POST:(NSString *)path params:(NSDictionary *)params completeBlock:(void (^)(BOOL isSuccess, NSDictionary *dict,NSError *err))completeBlock{
+//    //参数加密
+//    NSDictionary *finalParma = @{@"encryptedData":[DES3Util encrypt:[params jsonEncodedKeyValueString]]};
+//    
+//    NSString *strPath = [path stringByAppendingString:@"ForAPP"];
+//    [self requestWithApi:RequestTypePOST path:strPath params:finalParma completeBlock:completeBlock];
+//    
+//}
+//
+//- (void)ImgPOST:(NSString *)path params:(NSDictionary *)params files:(NSDictionary *)files completeBlock:(void (^)(BOOL isSuccess, NSDictionary *dict,NSError *err))completeBlock{
+//    
+//}
 
-- (void)POST:(NSString *)path params:(NSDictionary *)params completeBlock:(void (^)(BOOL isSuccess, NSDictionary *dict,NSError *err))completeBlock{
-    //参数加密
-    NSDictionary *finalParma = @{@"encryptedData":[DES3Util encrypt:[params jsonEncodedKeyValueString]]};
-    
-    NSString *strPath = [path stringByAppendingString:@"ForAPP"];
-    [self requestWithApi:RequestTypePOST path:strPath params:finalParma completeBlock:completeBlock];
-}
-
-- (void)ImgPOST:(NSString *)path params:(NSDictionary *)params files:(NSDictionary *)files completeBlock:(void (^)(BOOL isSuccess, NSDictionary *dict,NSError *err))completeBlock{
-    
-}
 
 
-
-- (void)requestWithApi:(RequestType)requestType  path:(NSString *)path params:(NSDictionary *)params completeBlock:(void (^)(BOOL isSuccess, NSDictionary *dict,NSError *err))completeBlock{
-//    AFHTTPSessionManager *manager  = [[AFHTTPSessionManager alloc]initWithBaseURL:[NSURL URLWithString:@"http://handset.line0.com/ws/handset/v10/"]];
-//    manager.responseSerializer = [AFHTTPResponseSerializer serializer];
-//    manager.requestSerializer = [AFJSONRequestSerializer serializer];
-//    [manager.requestSerializer setValue:@"application/json" forHTTPHeaderField:@"Accept"];
-//    [manager.requestSerializer setValue:@"application/json" forHTTPHeaderField:@"Content-Type"];
-//    manager.responseSerializer.acceptableContentTypes = [NSSet setWithObjects:@"text/html", nil];
-    AFHTTPSessionManager    *manager = [self createAFHTTPSessionManager];
-    
-    __block id responseDict = nil;
-    __block NSError *err = nil;
-    __block BOOL  isSuccess = YES;
+- (void)requestWithApi:(RequestType)requestType
+                  path:(NSString *)path
+                params:(NSDictionary *)params
+          successBlock:(requestSuccessBlock)success
+             failBlock:(requestFailBlock)fail{
     if (requestType == RequestTypeGET) {
-        [manager GET:path parameters:params progress:nil success:^(NSURLSessionDataTask * _Nonnull task, id  _Nullable responseObject) {
-            
+        [self GET:path parameters:params progress:nil success:^(NSURLSessionDataTask * _Nonnull task, id  _Nullable responseObject) {
+            success(responseObject);
         } failure:^(NSURLSessionDataTask * _Nullable task, NSError * _Nonnull error) {
-            completeBlock(NO,nil,error);
+            fail(error);
         }];
+
     }else if (requestType == RequestTypePOST){
-        [manager POST:path parameters:params progress:nil success:^(NSURLSessionDataTask * _Nonnull task, id  _Nullable responseObject) {
-            responseDict = [responseObject responseJSONDES3];
+        //参数加密
+        NSDictionary *finalParma = @{@"encryptedData":@"41ABWFEFDww0K/UfVdio86CL9SODzPx48qT/8SPeM8hqahvpcPSFPH5uecvnn6PuWCfG2Jf4/2QuM9bAke48ntcOOHogEhOLREs2Lsh5Tm1a/rYklZTjnunVMThtyRQrTilXZwDLs5vLbZDpgt4Do8OX/cUqUtzVGsq2PUJyBc72nlSZW0vrAgkGd5zpYLVfiPhAVF8UumGFKERIpytGAQ=="};
+        
+        NSString *strPath = [path stringByAppendingString:@"ForAPP"];
+        [self POST:strPath parameters:finalParma progress:nil success:^(NSURLSessionDataTask * _Nonnull task, id  _Nullable responseObject) {
+            id responseDict = [responseObject responseJSONDES3];
+            NSString *logStr = [NSString stringWithFormat:@"%@\nRequest\n-------\nurl:%@%@\nparams:%@\n--------\nResponse\n--------\n%@\n",[[NSDate date] descriptionWithLocale:[NSLocale currentLocale]],kBaseUrl,strPath,[DES3Util decrypt:[finalParma safeBindStringValue:@"encryptedData"]],[DES3Util decrypt:[[NSString alloc] initWithData:responseDict encoding:NSUTF8StringEncoding]]];
+            NSLog(@"%@",logStr);
+            BOOL isSuccess = YES;
+            NSError *err = nil;
             if (![responseDict isKindOfClass:[NSDictionary class]]) {
                 err = [BaseRequest errorWithApiErrorCode:-1000 errMsg:@"未知错误"];
                 isSuccess = NO;
@@ -174,16 +204,17 @@ static BaseRequest *baseRequest = nil;
                     }
                 }
             }
-            
-            if (completeBlock) {
-                completeBlock(isSuccess,responseDict,err);
+            if (isSuccess) {
+                success(responseDict);
+            }else{
+                fail(err);
             }
             
         } failure:^(NSURLSessionDataTask * _Nullable task, NSError * _Nonnull error) {
-            completeBlock(NO,nil,error);
+            NSString *logStr = [NSString stringWithFormat:@"%@\nRequest\n-------\nurl:%@%@\nparams:%@\n--------\nResponse\n--------\n%@\n",[[NSDate date] descriptionWithLocale:[NSLocale currentLocale]],kBaseUrl,strPath,[DES3Util decrypt:[finalParma safeBindStringValue:@"encryptedData"]],error];
+            NSLog(@"%@",logStr);
+            fail(error);
         }];
-        NSString *logStr = [NSString stringWithFormat:@"%@\nRequest\n-------\nurl:%@%@\nparams:%@\n--------\nResponse\n--------\n%@\n",[[NSDate date] descriptionWithLocale:[NSLocale currentLocale]],@"http://handset.line0.com/ws/handset/v10/",path,[DES3Util decrypt:[params safeBindStringValue:@"encryptedData"]],err.errMsg];
-        NSLog(@"%@",logStr);
     }
 }
 

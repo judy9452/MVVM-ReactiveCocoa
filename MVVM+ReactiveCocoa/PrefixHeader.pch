@@ -22,4 +22,5 @@
 #import <SDWebImage/UIImageView+WebCache.h>
 #import <Masonry.h>
 #import "UITableView+SDAutoTableViewCellHeight.h"
+#import "NetworkAPI.h"
 #endif

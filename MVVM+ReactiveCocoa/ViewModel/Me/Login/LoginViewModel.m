@@ -45,28 +45,38 @@
         return [RACSignal createSignal:^RACDisposable *(id<RACSubscriber> subscriber) {
             NSString *encryptPassword = [DES3Util encrypt:self.account.password];
             //"cityId":1,"source":3,"password":"QgMeUlxPI8E=","userX":118.8067112198866,"deviceType":"3","version":"5.2.3","userY":32.03299303289314,"name":"18652937407","userToken":""
-            NSDictionary *params = @{@"cityId":@(1),
+            NSDictionary *params = @{@"cityId":@(0),
                                      @"source":@(3),
                                      @"password":encryptPassword,
-                                     @"userX":@(118.8067112198866),
+                                     @"userX":@(-122.4000096157667),
                                      @"deviceType":@"3",
                                      @"version":@"5.2.3",
-                                     @"userY":@(32.03299303289314),
+                                     @"userY":@(37.79148401124748),
                                      @"name":self.account.userName,
                                      @"userToken":@""};
 //            NSMutableDictionary *conbParas = [[BaseRequest shareInstance]defaultPars:@{@"name": self.account.userName, @"password" : encryptPassword, @"version" : @"5.2.3"} isNeedLocation:YES];
-            [[BaseRequest shareInstance]POST:@"user/login" params:params completeBlock:^(BOOL isSuccess, NSDictionary *dict, NSError *err) {
-                if (isSuccess && !err) {
-                    [subscriber sendNext:dict];
-                    [subscriber sendCompleted];
-                }else{
-                    [subscriber sendError:err];
-                }
+            [[BaseRequest shareInstance]requestWithApi:RequestTypePOST path:@"user/login" params:params successBlock:^(NSDictionary *dict) {
+                [subscriber sendNext:dict];
+                [subscriber sendCompleted];
+            } failBlock:^(NSError *error) {
+                [subscriber sendError:error];
+            }];
+            
+            return [RACDisposable disposableWithBlock:^{
                 
             }];
-            return [RACDisposable disposableWithBlock:^{
-                //取消网络请求
-            }];
+//            [[BaseRequest shareInstance]POST:@"user/login" params:params completeBlock:^(BOOL isSuccess, NSDictionary *dict, NSError *err) {
+//                if (isSuccess && !err) {
+//                    [subscriber sendNext:dict];
+//                    [subscriber sendCompleted];
+//                }else{
+//                    [subscriber sendError:err];
+//                }
+//                
+//            }];
+//            return [RACDisposable disposableWithBlock:^{
+//                //取消网络请求
+//            }];
             
         }];
     }];
